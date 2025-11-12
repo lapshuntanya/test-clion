@@ -89,3 +89,8 @@ void delItemPos(T*&arr, int& size, int pos) {
 	//6 - Перепривʼязуємо покажчик на нову адресу
 	arr  = tmp;
 }
+
+//Додавання нового елементу в початок масиву
+template<typename  T>
+void delItemPos2(T*&arr, int& size, int pos) {
+}
