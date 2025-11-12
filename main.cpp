@@ -30,5 +30,13 @@ int main() {
     cout << "New address: " << A << endl;
     printArray(A, size);
 
+    delItemPos2(A, size, 1);
+    cout << "New address: " << A << endl;
+    printArray(A, size);
+
+    delItemPos2(A, size, 1);
+    cout << "New address: " << A << endl;
+    printArray(A, size);
+
     delete[] A;
  }
